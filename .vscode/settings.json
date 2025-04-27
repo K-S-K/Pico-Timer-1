@@ -1,0 +1,17 @@
+{
+    "CMakeTools.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/Src/build",
+    "cmake.sourceDirectory": "${workspaceFolder}/Src",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/Src/build"
+    ],
+    "files.associations": {
+        "*.c": "c",
+        "*.h": "c"
+    },
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "stdlib"
+    ]
+}
