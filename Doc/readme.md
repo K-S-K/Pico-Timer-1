@@ -1,8 +1,8 @@
 # Pico-Timer
 
-## How to prepare thhe environment and prerequisites
+## How to prepare the environment and prerequisites
 
-### Prepere the Raspberry PI Pico SDK and FreeRTOS image
+### Prepare the Raspberry PI Pico SDK and FreeRTOS image
 
 Somewhere in the common directory (in my case it is HOME/SDK) prepare clone the next two repositories:
 
@@ -34,7 +34,30 @@ echo $FREERTOS_KERNEL_PATH
 
 Have these variables in your system you can reference to them in the CMakeLists.txt files of all your projects.
 
-## How to build
+### Install PicoTools to communicate with target device
+
+Go to prerequisites directory and clone the repository
+
+[Picotool](https://github.com/raspberrypi/picotool)
+
+```bash
+cd ~
+git clone https://github.com/raspberrypi/picotool.git
+cd picotool
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+```
+
+To test Picotool type the next command
+
+```bash
+picotool --help
+```
+
+## How to build the target project
 
 ### To build the project, run the following commands
 
