@@ -11,8 +11,7 @@
             ],
             "defines": [
                 "PICO_ON_DEVICE=1",
-                "NDEBUG",
-                "YOUR_OWN_DEFINES"
+                "NDEBUG"
             ],
             "compilerPath": "/usr/bin/arm-none-eabi-gcc",
             "cStandard": "c11",
