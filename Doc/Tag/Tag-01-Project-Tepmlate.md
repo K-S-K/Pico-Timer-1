@@ -1,5 +1,9 @@
 # Pico-Timer Initial Project
 
+Like any embedded project, this project begins from the project directory structure and the blinking LED.
+
+Later on, the project, which is buildable and testable, must grow into something real.
+
 ## The project structure
 
 ```text
