@@ -4,7 +4,7 @@ Like any embedded project, this project begins from the project directory struct
 
 Later on, the project, which is buildable and testable, must grow into something real.
 
-The initial project commit is connected with [this task](https://github.com/K-S-K/Pico-Timer/issues/1)
+The initial project commit is connected with [this task](https://github.com/K-S-K/Pico-Timer/issues/1).
 
 ## The project structure
 
