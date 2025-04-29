@@ -39,7 +39,7 @@ Go to prerequisites directory and clone the repository
 [Picotool](https://github.com/raspberrypi/picotool)
 
 ```bash
-cd ~
+cd ~/SDK
 git clone https://github.com/raspberrypi/picotool.git
 cd picotool
 mkdir build
