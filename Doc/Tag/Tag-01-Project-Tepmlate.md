@@ -28,7 +28,11 @@ Project root/
 
 ## How to build the target project
 
-### To build the project, run the following commands
+### Prepare the environment and prerequisites
+
+The components and infrastructure necessary for the project are described in the [article, dedicated to this subject](https://github.com/K-S-K/Pico-Timer/blob/main/Doc/readme.md).
+
+### Build the project, run the following commands
 
 Prepare the build directory (if it is not done yet):
 
