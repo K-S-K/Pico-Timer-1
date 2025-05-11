@@ -22,14 +22,14 @@ In the.bashrc file, add the following lines:
 
 ```text
 export PICO_SDK_PATH="$HOME/SDK/pico-sdk"
-export FREERTOS_KERNEL_PATH="$HOME/SDK/FreeRTOS-Kernel"
+export FREERTOS_KERNEL_ORIG_PATH="$HOME/SDK/FreeRTOS-Kernel"
 ```
 
 Now,  you can check the environment variables:
 
 ```bash
 echo $PICO_SDK_PATH
-echo $FREERTOS_KERNEL_PATH
+echo $FREERTOS_KERNEL_ORIG_PATH
 ```
 
 Have these variables in your system you can reference to them in the CMakeLists.txt files of all your projects.

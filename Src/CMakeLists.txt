@@ -6,15 +6,15 @@ if(NOT DEFINED ENV{PICO_SDK_PATH})
     message(FATAL_ERROR "PICO_SDK_PATH environment variable not set!")
 endif()
 
-if(NOT DEFINED ENV{FREERTOS_KERNEL_PATH})
-    message(FATAL_ERROR "FREERTOS_KERNEL_PATH environment variable not set!")
+if(NOT DEFINED ENV{FREERTOS_KERNEL_ORIG_PATH})
+    message(FATAL_ERROR "FREERTOS_KERNEL_ORIG_PATH environment variable not set!")
 endif()
 
 # Pull in SDK (must be before project)
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Pull in FreeRTOS
-include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+include($ENV{FREERTOS_KERNEL_ORIG_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 
 project(app C CXX ASM)

@@ -5,8 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "ENV{PICO_SDK_PATH}/**",
-                "ENV{FREERTOS_KERNEL_PATH}/include/**",
-                "ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/**"
+                "ENV{FREERTOS_KERNEL_ORIG_PATH}/include/**",
+                "ENV{FREERTOS_KERNEL_ORIG_PATH}/portable/ThirdParty/GCC/RP2040/**"
                 // Add any other folders you need
             ],
             "defines": [

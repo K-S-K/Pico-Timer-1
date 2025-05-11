@@ -4,9 +4,11 @@
 
 #include "task.h"
 
-void vBlinkTask() {
+void vBlinkTask()
+{
 
-  for (;;) {
+  for (;;)
+  {
 
     gpio_put(PICO_DEFAULT_LED_PIN, 1);
     vTaskDelay(100);
@@ -22,7 +24,11 @@ void vBlinkTask() {
   }
 }
 
-void main() {
+void main()
+{
+  // Leave them free so OpenOCD can take over anytime
+  gpio_set_function(29, GPIO_FUNC_NULL); // SWDIO
+  gpio_set_function(30, GPIO_FUNC_NULL); // SWCLK
 
   gpio_init(PICO_DEFAULT_LED_PIN);
 
