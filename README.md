@@ -25,7 +25,7 @@ cd Src/build
 Execute CMake:
 
 ```bash
-cmake..
+cmake ..
 ```
 
 Execute make:
