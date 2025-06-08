@@ -4,7 +4,7 @@
 
 ### Prepare the Raspberry PI Pico SDK and FreeRTOS image
 
-Somewhere in the common directory (in my case it is HOME/SDK) prepare clone the next two repositories:
+Somewhere in the common directory (in my case, it is HOME/SDK), prepare a clone of the next two repositories:
 
 - [Pico-SDK](https://github.com/raspberrypi/pico-sdk)
 
@@ -12,17 +12,17 @@ Somewhere in the common directory (in my case it is HOME/SDK) prepare clone the 
 
 ### Prepare the environment variables for reference to these repositories
 
-To have these variables in the environment, add the following lines to the.bashrc file:
+To have these variables in the environment, add the following lines to the bashrc file:
 
 ```bash
 nano .zshrc
 ```
 
-In the.bashrc file, add the following lines:
+In the bashrc file, add the following lines:
 
 ```text
 export PICO_SDK_PATH="$HOME/SDK/pico-sdk"
-export FREERTOS_KERNEL_ORIG_PATH="$HOME/SDK/FreeRTOS-Kernel"
+export FREERTOS_KERNEL_ORIG_PATH="$HOME/SDK/FreeRTOS-Kernel-Original"
 ```
 
 Now,  you can check the environment variables:
@@ -32,11 +32,11 @@ echo $PICO_SDK_PATH
 echo $FREERTOS_KERNEL_ORIG_PATH
 ```
 
-Have these variables in your system you can reference to them in the CMakeLists.txt files of all your projects.
+Having these variables in your system, you can reference them in the CMakeLists.txt files of all your projects.
 
-### Install PicoTools to communicate with target device
+### Install PicoTools to communicate with the target device
 
-Go to prerequisites directory and clone the repository
+Now, we can go to the prerequisites directory and clone the repository.
 
 [Picotool](https://github.com/raspberrypi/picotool)
 
@@ -51,7 +51,7 @@ make
 sudo make install
 ```
 
-To test Picotool type the next command
+To test Picotool, type the following command:
 
 ```bash
 picotool --help
