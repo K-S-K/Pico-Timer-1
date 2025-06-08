@@ -15,7 +15,7 @@ Somewhere in the common directory (in my case, it is HOME/SDK), prepare a clone 
 To have these variables in the environment, add the following lines to the bashrc file:
 
 ```bash
-nano .zshrc
+nano ~/.zshrc
 ```
 
 In the bashrc file, add the following lines:
