@@ -1,6 +1,8 @@
 # Pico-Timer for Raspberry PI Pico 1
 
-Raspberry PI FreeRTOS Timer
+Raspberry PI Pico 1 FreeRTOS Timer
+
+For Pico 2, see [Raspberry PI Pico 2 FreeRTOS Timer](https://github.com/K-S-K/Pico-Timer-2)
 
 [Here](Doc/readme.md) are the instructions on preparing the environment and building the project.
 
