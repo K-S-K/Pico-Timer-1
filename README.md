@@ -1,4 +1,4 @@
-# Pico-Timer
+# Pico-Timer for Raspberry PI Pico 1
 
 Raspberry PI FreeRTOS Timer
 
