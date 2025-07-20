@@ -2,7 +2,7 @@
 
 Like any embedded project, this project begins from the project directory structure and the blinking LED.
 
-Later on, the project, which is buildable and testable, must grow into something real.
+Later on, the project, which is buildable and testable, must grow further on.
 
 **Note:** The components and infrastructure necessary for the project are described in the [article, dedicated to this subject](https://github.com/K-S-K/Pico-Timer/blob/main/Doc/Tag-00-Preparations.md). The developer computer must comply with these preparations.
 
@@ -36,7 +36,7 @@ Project root/
 
 The directory for the developer tool configuration and all its content is **developer tool-related**. This means that if you use a different IDE or don't use an IDE, then this directory isn't needed or can be replaced with something specific to the developer. For instance, it can be **_.idea_**, if the developer uses JetBrains IDE.
 
-The project was developed using the IDE Visual Studio Code. So, it created a directory named **_.vscode_**, which is the directory in which the IDE expects these configuration files.
+The project was developed using the Visual Studio Code IDE. Therefore, it created a directory named **_.vscode_**, which is the directory where the IDE expects these configuration files.
 
 VSCode must be configured to stop complaining about include instructions when it calls a compiler for IntelliSense functionality. So we need to create several IDE configuration files in .vscode directory in the root of our repository.
 
@@ -49,7 +49,7 @@ The **_c_cpp_properties.json_** file contains C++ extension configuration for Vi
 
 The official description of this file format is written in the article: [C++ extension settings reference (https://code.visualstudio.com/docs/cpp/customize-cpp-settings)](https://code.visualstudio.com/docs/cpp/customize-cpp-settings).
 
-The **_settings.json_** file describes workspace-related VSCode behavior. Important parameters for us at this stage are:
+The **_settings.json_** file describes workspace-related VSCode behavior. Essential parameters for us at this stage are:
 
 - _"C_Cpp.intelliSenseEngine": "default"_ - turns on the IntelliSenseEngine;
 - _"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"_ - it delegates the configuration procedure to the CMake extension, which prepares, including but not limited to, the compile_commands.json file, which is necessary for the  proper work of the code navigation and intellisense;
@@ -58,7 +58,7 @@ The **_settings.json_** file describes workspace-related VSCode behavior. Import
 
 ### Documentation
 
-Having the documentation in the project is **not obligatory**. However, it is beneficial to have some description for colleagues or for the developer himself to understand what and why they did when they return to the project after some time.
+Having the documentation in the project is **not obligatory**. However, it is beneficial to have some description for colleagues or for the developer themselves to understand what and why they did it when they return to the project after some time.
 
 ### Source files
 
@@ -66,7 +66,7 @@ This workspace directory gathers all source files, and separates them from other
 
 ### Git related files
 
-If the project is under the Git based source control it leads to having some corresponding files in the repository:
+If the project is under Git based source control, it leads to having some corresponding files in the repository:
 
 - **_.gitignore_** is a necessary configuration file for separating what to put under control from what not to.
 - **_LICENSE_** is traditionally present in the root of the git repositories. Usually never been read, even by the authors' code owners.
@@ -76,7 +76,7 @@ If the project is under the Git based source control it leads to having some cor
 
 ### Build the project by executing the following commands
 
-Prepare the build directory (if it is not done yet):
+Prepare the build directory (if it does not exist yet):
 
 ```bash
 mkdir Src/build
