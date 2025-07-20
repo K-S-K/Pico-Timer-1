@@ -1,14 +1,17 @@
-# Pico-Timer for Raspberry PI Pico 1
+# Raspberry PI Pico 1 FreeRTOS Timer
 
-Raspberry PI Pico 1 FreeRTOS Timer
+![Blinking Led Pico Image](Doc/Img/PT-001-01-pico-blink.gif)
+
+Currently, this repository demonstrates only toolchain configuration for the Pico-I development.
 
 For Pico 2, see [Raspberry PI Pico 2 FreeRTOS Timer](https://github.com/K-S-K/Pico-Timer-2)
 
-[Here](Doc/readme.md) are the instructions on preparing the environment and building the project.
+## Development Instructions
 
-The structure of the initial empty project is described in the [article](Doc/Tag/Tag-01-Project-Tepmlate.md) dedicated to the description of the simplest working project.
+The instructions on preparing the environment and building the project are written in the two following articles:
 
-It was very helpful to read [this article](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico) to start the project. It is the first consistent example I've found.
+- [Development environment and prerequisites](Doc/Tag/Tag-00-Preparations.md);
+- [Creation of the initial project](Doc/Tag/Tag-01-Project-Tepmlate.md).
 
 ## To build the project, run the following commands
 
@@ -35,3 +38,7 @@ Execute make:
 ```bash
 make
 ```
+
+---
+
+It was very helpful to read [this article](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico) to start the project. It is the first consistent example I've found in the internet.

@@ -4,16 +4,17 @@
             "name": "Pico",
             "includePath": [
                 "${workspaceFolder}/**",
-                "ENV{PICO_SDK_PATH}/**",
-                "ENV{FREERTOS_KERNEL_ORIG_PATH}/include/**",
-                "ENV{FREERTOS_KERNEL_ORIG_PATH}/portable/ThirdParty/GCC/RP2040/**"
+                "${env:PICO_SDK_PATH}/**",
+                "${env:FREERTOS_KERNEL_ORIG_PATH}/include/**",
+                "${env:FREERTOS_KERNEL_ORIG_PATH}/portable/ThirdParty/GCC/RP2040/**"
                 // Add any other folders you need
             ],
             "defines": [
                 "PICO_ON_DEVICE=1",
                 "NDEBUG"
             ],
-            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            // "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-arm"

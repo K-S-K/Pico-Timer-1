@@ -4,9 +4,9 @@
 
 Somewhere in the common directory (in my case it is HOME/SDK) prepare clone the next two repositories:
 
-- [Pico-SDK](https://github.com/raspberrypi/pico-sdk)
+- [Pico-SDK (https://github.com/raspberrypi/pico-sdk)](https://github.com/raspberrypi/pico-sdk);
 
-- [FreeRTOS](https://github.com/FreeRTOS/FreeRTOS-Kernel)
+- [FreeRTOS (https://github.com/FreeRTOS/FreeRTOS-Kernel)](https://github.com/FreeRTOS/FreeRTOS-Kernel).
 
 ## Prepare the environment variables for reference to these repositories
 
@@ -30,13 +30,17 @@ echo $PICO_SDK_PATH
 echo $FREERTOS_KERNEL_ORIG_PATH
 ```
 
-Have these variables in your system you can reference to them in the CMakeLists.txt files of all your projects.
+Having these variables in your system you can reference to them in the CMakeLists.txt files of all your Pico-I - FreeRTOS related projects.
 
-### Install PicoTools to communicate with target device
+**Note:** The "ORIG" word ni the variable name is added to distinguish between FreeRTOS originated FreeRTOS kernel, and MCU manufacturer ports of the FreeRTOS kernel when referencing from the project. For instance, for Pico-II we must reference to the  the Pico manufacturer Git repisitory because FreeRTOS doesn't support Pico-II at the time of cerating of this article.
+
+### (Optional) Install PicoTools to communicate with target device
+
+**Note:** This tool can be used for using Pico Probe for flashing and debugging Pico, and practically, not obligated for the basic development experiments.
 
 Go to prerequisites directory and clone the repository
 
-[Picotool](https://github.com/raspberrypi/picotool)
+[Picotool (https://github.com/raspberrypi/picotool)](https://github.com/raspberrypi/picotool)
 
 ```bash
 cd ~/SDK
