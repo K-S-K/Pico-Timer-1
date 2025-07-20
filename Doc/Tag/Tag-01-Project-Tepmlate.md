@@ -4,7 +4,7 @@ Like any embedded project, this project begins from the project directory struct
 
 Later on, the project, which is buildable and testable, must grow further on.
 
-**Note:** The components and infrastructure necessary for the project are described in the [article, dedicated to this subject](https://github.com/K-S-K/Pico-Timer/blob/main/Doc/Tag-00-Preparations.md). The developer computer must comply with these preparations.
+**Note:** The components and infrastructure necessary for the project are described in the [previous article, dedicated to this subject](https://github.com/K-S-K/Pico-Timer/blob/main/Doc/Tag-00-Preparations.md). The developer computer must comply with these preparations.
 
 ## The project structure
 
