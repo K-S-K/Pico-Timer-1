@@ -2,13 +2,13 @@
 
 ![Blinking Led Pico Image](Doc/Img/PT-001-01-pico-blink.gif)
 
-Currently, this repository demonstrates only toolchain configuration for the Pico-I development.
+Currently, this repository demonstrates only the toolchain configuration for the Pico-I development.
 
 For Pico 2, see [Raspberry PI Pico 2 FreeRTOS Timer](https://github.com/K-S-K/Pico-Timer-2)
 
 ## Development Instructions
 
-The instructions on preparing the environment and building the project are written in the two following articles:
+The instructions on preparing the environment and building the project are written in the following two articles:
 
 - [Development environment and prerequisites](Doc/Tag/Tag-00-Preparations.md);
 - [Creation of the initial project](Doc/Tag/Tag-01-Project-Tepmlate.md).
