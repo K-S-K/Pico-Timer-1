@@ -1,9 +1,9 @@
 # Pico-Timer Development Story
 
-## [Preparations](Tag-00-Preparations.md), 2025.04.27
+## [Preparations](Tag-00-Preparations.md)
 
-All necessary prerequisites, system, tools and environment configuration
+All necessary prerequisites, system, tools, and environment configuration
 
-## [Project Template](Tag-01-Project-Tepmlate.md), 2025.04.28
+## [Blink Project Template](Tag-01-Project-Tepmlate.md)
 
-As any embedded project, this project begins from the project directory structure and blinking led.
+Like any embedded project, this project begins from the project directory structure and the blinking LED.
