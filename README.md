@@ -4,7 +4,7 @@
 
 ## Development Instructions
 
-The instructions on preparing the environment and building the project are written in the following two articles:
+The instructions on preparing the environment on MacOS and building the project are written in the following two articles:
 
 - [Development environment and prerequisites](Doc/Tag/Tag-00-Preparations.md);
 - [Creation of the initial project](Doc/Tag/Tag-01-Project-Tepmlate.md).
