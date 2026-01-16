@@ -34,7 +34,7 @@ Having these variables in your system, you can reference them in the CMakeLists.
 
 **Note:** The "ORIG" word in the variable name is added to distinguish between the FreeRTOS-originated FreeRTOS kernel and the MCU manufacturer ports of the FreeRTOS kernel when referencing from the project. For instance, for the [Pico-II](https://github.com/K-S-K/Pico-Timer-2), we must reference the Pico manufacturer's Git repository because FreeRTOS doesn't support the Pico-II at the time of writing this article.
 
-### (Optional) Install PicoTools to communicate with the target device
+## (Optional) Install PicoTools to communicate with the target device
 
 **Note:** This tool can be used for using Pico Probe for flashing and debugging Pico, and practically, is not obligated for the basic development experiments and wouldn't be mentioned in this article series.
 
@@ -58,3 +58,4 @@ To test Picotool, type the following command.
 ```bash
 picotool --help
 ```
+## Next step: [Pico-Timer Initial Project](Tag-01-Project-Tepmlate.md)
