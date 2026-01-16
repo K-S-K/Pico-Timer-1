@@ -32,7 +32,7 @@ echo $FREERTOS_KERNEL_ORIG_PATH
 
 Having these variables in your system, you can reference them in the CMakeLists.txt files of all your projects related to Pico-I and FreeRTOS.
 
-**Note:** The "ORIG" word in the variable name is added to distinguish between the FreeRTOS-originated FreeRTOS kernel and the MCU manufacturer ports of the FreeRTOS kernel when referencing from the project. For instance, for the Pico-II, we must reference the Pico manufacturer's Git repository because FreeRTOS doesn't support the Pico-II at the time of writing this article.
+**Note:** The "ORIG" word in the variable name is added to distinguish between the FreeRTOS-originated FreeRTOS kernel and the MCU manufacturer ports of the FreeRTOS kernel when referencing from the project. For instance, for the [Pico-II](https://github.com/K-S-K/Pico-Timer-2), we must reference the Pico manufacturer's Git repository because FreeRTOS doesn't support the Pico-II at the time of writing this article.
 
 ### (Optional) Install PicoTools to communicate with the target device
 
