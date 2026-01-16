@@ -39,4 +39,4 @@ make
 
 **Note 1:** It was very helpful to read [this article](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico) to start the project. It is the first consistent example I've found on the internet.
 
-**Note 2:** Currently, this repository demonstrates only the toolchain configuration for the Pico-I development. For Pico 2, see [Raspberry PI Pico 2 FreeRTOS Timer](https://github.com/K-S-K/Pico-Timer-2)
+**Note 2:** Currently, this repository demonstrates only the toolchain configuration for the Pico-I development. For Pico 2, see [Raspberry PI Pico 2 FreeRTOS Timer](https://github.com/K-S-K/Pico-Timer-2), but it is not as descriptive as this project.
