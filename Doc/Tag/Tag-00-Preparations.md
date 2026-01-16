@@ -10,13 +10,13 @@ Somewhere in the common directory (in my case, it is HOME/SDK), prepare a clone 
 
 ## Prepare the environment variables for reference to these repositories
 
-To have these variables in the environment, add the following lines to the.bashrc file:
+To have these variables in the environment, add the following lines to the .bashrc file:
 
 ```bash
 nano .zshrc
 ```
 
-In the.bashrc file, add the following lines:
+In the .bashrc file, add the following lines:
 
 ```text
 export PICO_SDK_PATH="$HOME/SDK/pico-sdk"
@@ -36,7 +36,7 @@ Having these variables in your system, you can reference them in the CMakeLists.
 
 ### (Optional) Install PicoTools to communicate with the target device
 
-**Note:** This tool can be used for using Pico Probe for flashing and debugging Pico, and practically, is not obligated for the basic development experiments.
+**Note:** This tool can be used for using Pico Probe for flashing and debugging Pico, and practically, is not obligated for the basic development experiments and wouldn't be mentioned in this article series.
 
 Go to the prerequisites directory and clone the repository.
 
