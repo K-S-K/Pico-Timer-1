@@ -2,6 +2,10 @@
 
 ![Blinking Led Pico Image](Doc/Img/PT-001-01-pico-blink.gif)
 
+## Introduction
+
+This series of articles describes how to set up a development environment on macOS for developing FreeRTOS projects for the RP2040 with VSCode.
+
 ## Development Instructions
 
 The instructions on preparing the environment on MacOS and building the project are written in the following two articles:
